@@ -1,0 +1,54 @@
+.bg_img
+{
+  --background: none;
+    background-image: url("../../assets/BLURREDVER.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card_front
+{
+  --background: none;
+  background-image: url("../../assets/FPBG.png");
+  border: 2px solid #ffffff; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%; 
+  width: 80%;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+}
+
+ion-input
+{
+  background-color: rgb(0, 0, 0, 0.6);
+  height: 10px;
+  border-radius: 10px;
+  font-family: Roboto;
+}
+
+ion-button
+{
+  padding-top: 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+ion-label
+{
+  margin-left: 15%;
+  font-size: 11px;
+  font-family: Roboto;
+}
+
+
+
