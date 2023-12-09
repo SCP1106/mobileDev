@@ -6,12 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registration.page.scss'],
 })
 export class RegistrationPage implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
-
-export class RadioButtonStringPage {
   selectedOption: string | null = null;
 
   selectOption(option: string) {
@@ -19,4 +13,11 @@ export class RadioButtonStringPage {
     console.log('Selected Option:', option);
     // You can perform actions based on the selected option here
   }
+  constructor() {}
+
+  ngOnInit() {}
 }
+
+// export class RadioButtonStringPage {
+
+// }

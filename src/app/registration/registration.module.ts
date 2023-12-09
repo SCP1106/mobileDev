@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { RegistrationPageRoutingModule } from './registration-routing.module';
 
 import { RegistrationPage } from './registration.page';
-import { RadioButtonStringPage } from './registration.page';
+// import { RadioButtonStringPage } from './registration.page';
 
 @NgModule({
   imports: [
